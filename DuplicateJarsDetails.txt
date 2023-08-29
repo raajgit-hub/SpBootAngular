@@ -1,0 +1,20 @@
+tomcat-embed-core-9.0.53,tomcat-embed-core-9.0.76
+tomcat-embed-el-9.0.53,tomcat-embed-el-9.0.76
+tomcat-embed-websocket-9.0.53,tomcat-embed-websocket-9.0.76
+txw2-2.3.5.jar,txw2-2.3.8.jar
+spring-webmvc-5.3.10.jar,spring-webmvc-5.3.28.jar
+spring-tx-5.3.10.jar,spring-tx-5.3.28.jar
+spring-security-web-5.5.2.jar,spring-security-web-5.7.9.jar
+spring-security-crypto-5.5.2.jar,spring-security-crypto-5.7.9.jar
+spring-security-core-5.5.2.jar,spring-security-core-5.7.9.jar
+spring-security-config-5.5.2.jar,spring-security-config-5.7.9.jar
+spring-orm-5.3.10.jar,spring-orm-5.3.28.jar
+spring-jdbc-5.3.10.jar,spring-jdbc-5.3.28.jar
+spring-jcl-5.3.10.jar,spring-jcl-5.3.28.jar
+spring-expression-5.3.10.jar,spring-expression-5.3.28.jar
+spring-data-jpa-2.5.5.jar,spring-data-jpa-2.7.13.jar
+spring-data-commons-2.5.5.jar,spring-data-commons-2.7.13.jar
+spring-core-5.3.10.jar,spring-core-5.3.28.jar
+
+mvn dependency:tree - To detect duplicate dependencies in the spring boot application.
+mvn dependency:analyze-dependency - To analyze duplicate dependencies
